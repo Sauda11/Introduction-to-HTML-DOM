@@ -18,12 +18,10 @@ function validate(e) {
         message = 'Age must be between 12 and 50.';
         msgBox.style.color = 'red';
     } 
-
     else {
         message = 'Login successful!';
         msgBox.style.color = 'green';
     }
-
     msgBox.innerText = message;
 }
 
